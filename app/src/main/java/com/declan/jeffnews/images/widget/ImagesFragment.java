@@ -14,14 +14,19 @@ import android.widget.LinearLayout;
 
 import com.declan.jeffnews.R;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
- * Created by Administrator on 2016/9/15.
+ * Created by Jeff_xu on 2016/9/15.
  */
 public class ImagesFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener{
 
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RecyclerView mRecyclerView;
     private LinearLayoutManager mLayoutManager;
+
+    private List<String> mData = new ArrayList<>();
 
     @Nullable
     @Override
