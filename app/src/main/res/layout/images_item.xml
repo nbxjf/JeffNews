@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_marginBottom="8dp"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_images"
+            android:src="@drawable/protrait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:text="描述文本"
+            android:id="@+id/tv_images"
+            android:layout_below="@+id/iv_images"
+            android:maxLines="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
