@@ -11,4 +11,5 @@
     <string name="nba">NBA</string>
     <string name="joke">笑话</string>
     <string name="circle">圈子</string>
+    <string name="image_hit">一次只加载20条，查看更多内容请刷新哦。</string>
 </resources>
